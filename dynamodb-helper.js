@@ -3,7 +3,7 @@
  * How to use:
  *
  *     var DynamoDbHelper = require('./dynamodb-helper');
- *     var db = new DynamoDbHelper('someTableName');
+ *     var db = new DynamoDbHelper('someTableName', 'userId');
  *
  *     let someUserId = 'someAlexaUsersId';
  *
