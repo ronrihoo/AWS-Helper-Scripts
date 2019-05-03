@@ -21,7 +21,7 @@ var userDataTableName = 'userDataTable';
 var userDataTableKey = 'userId';
 
 // AWS automatically sets the environment variables on remote,
-// so keep this as is and no need to configure anything
+// so keep this as is and no need to configure anything here
 var credentials = {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
