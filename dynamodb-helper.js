@@ -11,6 +11,9 @@
  *        // do something with the result...
  *        console.log('data: ', userData.data);  // userData: a row from the table; data: target column's name
  *     });
+ *
+ * Add the following to your dependencies in package.json and install.
+ * 	"dynasty": "^0.3.15"
  */
 'use strict';
 
